@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global reset to avoid layout overflow from padding/width calculations */
+html, body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+/* Smooth scroll behavior */
+html {
+	scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+/* Prevent images from overflowing their containers */
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
