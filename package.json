@@ -11,11 +11,15 @@
     "tailwind-init": "tailwindcss init -p"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.89.0",
+    "axios": "^1.13.2",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-helmet": "^6.1.0",
     "react-multi-carousel": "^2.8.6",
-    "react-router-dom": "^7.10.1"
+    "react-router-dom": "^7.10.1",
+    "sweetalert2": "^11.26.17",
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
