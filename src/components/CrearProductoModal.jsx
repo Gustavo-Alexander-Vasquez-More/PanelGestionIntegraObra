@@ -96,7 +96,6 @@ export default function CrearProductoModal({ open, onClose, categories, onCreate
       if (onCreated) onCreated()
       handleClose()
     } catch (err) {
-      console.log('Error al crear producto:', err)
       // Intenta mostrar el mensaje de validación más claro posible
       let apiMsg = err?.response?.data?.message
       // Si el backend manda un objeto con descripción de error
